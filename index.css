@@ -1,0 +1,33 @@
+body{
+    vertical-align: middle;
+    position: relative;
+    padding: 100px;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+}
+
+.myButton {
+	background-color:yellow;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	border:1px solid, white;
+	display:inline-block;
+	cursor:pointer;
+	color:#0a0a0a;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin: 0px 350px;
+}
+.myButton:hover {
+	background-color:indianred;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
